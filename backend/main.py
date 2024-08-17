@@ -1,4 +1,4 @@
-from model import RAG
+from backend.model import RAG
 
 
 def create_rag_instance():

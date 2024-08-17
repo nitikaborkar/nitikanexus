@@ -1,5 +1,5 @@
 import os
-from document_loader import get_docs_list
+from backend.document_loader import get_docs_list
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
