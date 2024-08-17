@@ -1,0 +1,21 @@
+Nitika's Weekly Time table for this Semester
+Monday:
+- Computer Security Tutorial: 9:30 to 10:30 am
+- Advanced Computer Architecture: 2:30 to 3:30 pm
+
+Tuesday:
+- Computer Security Lecture: 8:30 to 10:30 am
+- Design Thinking Class: 1:30 to 4:30 pm
+
+Wednesday:
+- Natural Language Processing Lecture: 9:30 to 11:30 am
+- Natural Language Processing Tutorial: 11:30 to 12:30 pm
+- Advanced Computer Architecture Tutorial: 4:30 to 5:30 pm
+
+Thursday:
+- Engineering Communication: 10:30 am to 12:30 pm
+- Advanced Computer Architecture Lab: 2:30 to 4:30 pm
+
+Friday:
+- Multidisciplinary Project: 8:30 to 10:30 am
+- Advanced Computer Architecture Lecture: 4:30 to 5:30 pm

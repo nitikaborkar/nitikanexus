@@ -1,0 +1,73 @@
+roject Description for KPMG International Limited - Machine Learning and AI Intern
+1. Project Title: Uplift Modeling for Marketing Campaign Optimization
+Objective:
+The primary goal of this project was to optimize marketing campaigns by implementing an uplift modeling approach using causal inference techniques. The objective was to increase revenue while minimizing costs by accurately targeting customers who were most likely to respond positively to the marketing efforts.
+
+Approach:
+
+Data Collection and Preprocessing:
+
+Collected and cleaned customer data from various online sources, including CRM systems, transactional data, and demographic information.
+Conducted feature engineering to create variables that capture customer behavior, preferences, and historical response to marketing campaigns.
+Split the dataset into treatment and control groups to enable the comparison needed for causal inference.
+Uplift Modeling:
+
+Causal Inference Techniques: Implemented causal inference techniques such as the Two-Model approach (building separate models for treated and control groups) and the Treatment Interaction Model (adding interaction terms between treatment and other features).
+Model Training: Trained machine learning models (e.g., Random Forest, Gradient Boosting) to predict the uplift, which is the difference in the likelihood of a positive outcome between the treatment and control groups.
+Evaluation: Evaluated the models using metrics specifically designed for uplift modeling, such as the Qini coefficient and uplift curve, to ensure the models were accurately identifying the customers who would benefit most from the marketing campaigns.
+Campaign Optimization:
+
+Used the uplift scores to prioritize customers for marketing outreach, focusing on those with the highest predicted uplift.
+Segmented customers into persuadables, lost causes, do not disturbs, sleeping dogs 
+Results:
+
+Achieved a 75% increase in revenue by accurately targeting customers with the highest likelihood of positive response to the campaigns.
+Reduced marketing costs by 77% through the efficient allocation of resources, avoiding unnecessary outreach to customers with low or negative uplift.
+To enhance the decision-making process for stakeholders by designing and deploying interactive data visualization dashboards using Power BI. These dashboards were aimed at facilitating the intuitive exploration of key performance indicators (KPIs) and providing actionable insights.
+
+2. Project Title: AI-Driven Supplier Risk Assessment System
+
+Project Title: AI-Driven Supplier Risk Assessment System
+Objective:
+The project aimed to develop a comprehensive AI-driven system for assessing supplier risk. This involved integrating Generative AI (GenAI) models such as Llama and Mistral to parse user queries, perform text and sentiment analysis, and generate detailed risk assessment reports.
+
+Approach:
+
+System Design and Architecture:
+
+Architected the system using a modular approach, where different components were responsible for data ingestion, text analysis, sentiment analysis, and report generation.
+Integrated Generative AI models (Llama and Mistral) using LangChain, which facilitated seamless interactions between different components and enabled complex query parsing.
+
+Data Integration and Preprocessing:
+
+Collected and integrated supplier data from online sources. Used ctgan-synthesiser from data vault to generate synthetic data.
+Preprocessed the text data to ensure consistency and accuracy. 
+Generative AI Integration:
+Leveraged the capabilities of Llama model using LangChain with extensive prompt engineering to parse user queries to understand and interpret complex user queries related to supplier risk.
+Used the models to generate comprehensive risk assessment reports that included an analysis of financial metrics, sentiment analysis, and expert commentary.
+
+Results:
+
+Delivered an advanced AI-driven system capable of generating detailed and accurate supplier risk assessments in real-time.
+Enabled stakeholders to make informed decisions regarding supplier relationships, mitigating potential risks and ensuring continuity in the supply chain.
+
+Project Description for Bosch Ltd - Data Science and Machine Learning Intern
+
+3. Project Title: Time Series Analysis and Change Point Detection in RMS Current Data
+Objective:
+The primary goal of this project was to develop a robust system to categorize tool usage into distinct stages based on RMS (Root Mean Square) current data. The project aimed to accurately detect change points in the time series data, which signify transitions between different stages of tool operation.
+
+Approach:
+
+Data Collection and Preprocessing:
+
+Data Cleaning: Initiated the project by cleaning the RMS current data collected from various tools. This involved removing noise, correcting inconsistencies, and normalizing the data for further analysis.
+Outlier Detection: Applied statistical methods and machine learning techniques to identify and handle outliers in the dataset, ensuring the integrity and reliability of the analysis.
+Missing Data Analysis: Addressed missing data points by employing imputation techniques, such as mean imputation and interpolation, to maintain the continuity and accuracy of the time series data.
+Feature Engineering: Extracted relevant features from the time series data, such as rolling mean, standard deviation, and derivative of the RMS current, which were critical in identifying distinct stages of tool usage.
+Change Point Detection Algorithm:
+
+Binseg Algorithm Integration: Implemented the Binseg (Binary Segmentation) algorithm, an unsupervised learning approach, to detect change points in the time series data. The algorithm recursively partitions the data, identifying points where statistical properties change, which correspond to transitions between different operational stages of the tools.
+Random Forest Regressor: Combined the Binseg algorithm with a supervised learning approach by integrating a Random Forest Regressor. The Random Forest model was trained to predict the RMS current values and identify anomalies, further refining the detection of change points.
+Algorithm Tuning: Fine-tuned the hyperparameters of both the Binseg algorithm and the Random Forest Regressor to optimize the accuracy and reliability of the change point detection system.
+

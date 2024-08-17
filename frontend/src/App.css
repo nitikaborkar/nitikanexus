@@ -1,0 +1,245 @@
+.App {
+  text-align: center;
+  background-image: url('/Users/nitikaborkar/SAP-Project/frontend/public/download.jpeg'); /* Correct path relative to public folder */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.wave-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: 10; /* Ensures it overlays on top of background */
+}
+
+h1 {
+  font-size: 72px;
+  font-family: sans-serif;
+  background: -webkit-linear-gradient(#0d32d9, #e511d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.chat-window {
+  width: 90%;
+  max-width: 65%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  overflow-y: auto;
+  height: 60vh;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.bot-message-container {
+  align-items: flex-start;
+  text-align: justify;
+}
+
+.user-message-container {
+  align-items: flex-end;
+  text-align: justify;
+}
+
+.bot-message {
+  background-color: #f1f0f0;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 60%;
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+
+.user-message {
+  background-color: #e667de;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 60%;
+  margin-bottom: 10px;
+  align-self: flex-end;
+}
+
+.input-container {
+  width: 80%;
+  max-width: 600px;
+  display: flex;
+  justify-content:space-evenly;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 1rem;
+  border: 1px solid #ccc;
+  margin: 0 10px;
+}
+
+button {
+  font-family: inherit;
+  font-size: 18px;
+  background: linear-gradient(to bottom, #4dc7d9 0%,#66a6ff 100%);
+  color: white;
+  padding: 0.8em 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button span {
+  display: block;
+  margin-left: 0.4em;
+  transition: all 0.3s;
+}
+
+button svg {
+  width: 18px;
+  height: 18px;
+  fill: white;
+  transition: all 0.3s;
+}
+
+button .svg-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-right: 0.5em;
+  transition: all 0.3s;
+}
+
+button:hover .svg-wrapper {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+button:hover svg {
+  transform: rotate(45deg);
+}
+
+.absolute {
+  position: absolute;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.loader {
+  display: flex;
+  margin: 0.25em 0;
+}
+
+.w-2 {
+  width: 0.5em;
+}
+
+.dash {
+  animation: dashArray 2s ease-in-out infinite,
+    dashOffset 2s linear infinite;
+}
+
+.spin {
+  animation: spinDashArray 2s ease-in-out infinite,
+    spin 8s ease-in-out infinite,
+    dashOffset 2s linear infinite;
+  transform-origin: center;
+}
+
+@keyframes dashArray {
+  0% {
+    stroke-dasharray: 0 1 359 0;
+  }
+
+  50% {
+    stroke-dasharray: 0 359 1 0;
+  }
+
+  100% {
+    stroke-dasharray: 359 1 0 0;
+  }
+}
+
+@keyframes spinDashArray {
+  0% {
+    stroke-dasharray: 270 90;
+  }
+
+  50% {
+    stroke-dasharray: 0 360;
+  }
+
+  100% {
+    stroke-dasharray: 270 90;
+  }
+}
+
+@keyframes dashOffset {
+  0% {
+    stroke-dashoffset: 365;
+  }
+
+  100% {
+    stroke-dashoffset: 5;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  12.5%,
+  25% {
+    transform: rotate(270deg);
+  }
+
+  37.5%,
+  50% {
+    transform: rotate(540deg);
+  }
+
+  62.5%,
+  75% {
+    transform: rotate(810deg);
+  }
+
+  87.5%,
+  100% {
+    transform: rotate(1080deg);
+  }
+}

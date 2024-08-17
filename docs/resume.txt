@@ -1,0 +1,69 @@
+Nitika Borkar
+Contact Information
+
+Mobile No.: 81533541
+Email: nitikaborkar@gmail.com
+Education
+Degree: Bachelor of Engineering, Computer Science
+Institution: Nanyang Technological University, Singapore
+Duration: Aug 2022 - May 2026
+CGPA: 4.69/5.00
+GPA (Last Semester): 4.85/5.00
+Relevant Coursework:
+Algorithm Design and Analysis (Grade: A)
+Operating Systems (Grade: A)
+Introduction to Data Science & Artificial Intelligence (Grade: A)
+Object-Oriented Design and Programming (Grade: A-)
+Software Engineering
+Introduction to Database
+Professional Experience
+KPMG (May 2024 - July 2024)
+
+Role: Machine Learning and AI Intern
+Key Achievements:
+Implemented uplift modeling using machine learning algorithms, achieving a 75% increase in revenue and 77% cost reduction.
+Developed an AI-driven supplier risk assessment system integrating large language models to generate risk assessment reports.
+Bosch (March 2024 - May 2024)
+
+Role: Data Science and Machine Learning Intern
+Key Achievements:
+Developed a change point detection system with 92% accuracy using Binseg algorithm and Random Forest Regressor.
+Tata Capital Financial Services Limited (May 2023 - June 2023)
+
+Role: Data Science Intern
+Key Achievements:
+Conducted rejection inferencing analysis on loan data, identifying segments for improving approval rates.
+Academic Projects and Research Experience
+Undergraduate Researcher, NTU (Aug 2023 - July 2024)
+
+Project: Driver Allocation Optimization on Food Delivery Platform
+Key Achievements: Developed an interactive dashboard using R shiny and Leaflet for real-time driver supply and demand optimization.
+Software Engineering and Design Project (Jan 2024 - April 2024)
+
+Project: EducateSG (Full Stack Development, 5-member team)
+Key Achievements: Led the development of a full-stack project using ReactJS, MongoDB, and integrated various APIs.
+Artificial Intelligence Project (March 2024 - April 2024)
+
+Project: Reinforcement Learning for Pole Balancing on Cart Problem
+Key Achievements: Implemented Q-learning algorithm, achieving an average reward of 195 over 100 episodes.
+Extracurricular Activities
+Vice-President, NTU Open-Source Society (2023-2024)
+
+Led 3 teams in organizing workshops, hackathons, and projects.
+Liaised with industry experts to enhance collaboration and industry relevance.
+Hackathon Head, School of Computer Science and Engineering Club (2023-2023)
+
+Organized the Techfest hackathon.
+Interacted with tech company leaders, showcasing networking skills.
+Skills
+Programming Languages: Python, Java, C
+Web Development: HTML/CSS, JavaScript, React.js, Node.js, Express.js
+Data Science and Machine Learning: Pandas, Numpy, Matplotlib, Plotly, Scikit-learn, TensorFlow, PyTorch
+Database Management: SQL, MongoDB
+Tools: Tableau, PowerBI, Microsoft Excel/PowerPoint
+Version Control: Git/GitHub
+Academic Achievements
+Accelerated Bachelor Program at NTU
+President Research Scholar (Undergraduate Research Assistance)
+SHE INSPIRE Scholarship (Top 1% of class 12 examination, Aug 2022)
+Lala Kailashpat Singhania Special Merit Scholarship (Rank 3 in school)
