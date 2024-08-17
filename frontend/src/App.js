@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div className="App">
-      <img src="/Users/nitikaborkar/SAP-Project/frontend/src/wave.svg" alt="Wave" class="wave-overlay"></img>
+      <img src="/src/wave.svg" alt="Wave" class="wave-overlay"></img>
        <h1>NitikaNexus <span style={{ WebkitTextFillColor: 'initial' }}>🤖</span></h1>
       <div className="chat-window" ref={chatWindowRef}>
         {messages.map((msg, idx) => (

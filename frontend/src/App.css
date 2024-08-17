@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: url('/Users/nitikaborkar/SAP-Project/frontend/public/download.jpeg'); /* Correct path relative to public folder */
+  background-image: url('/public/download.jpeg'); /* Correct path relative to public folder */
   background-size: cover;
   background-position: center;
   height: 100vh;
