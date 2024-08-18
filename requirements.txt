@@ -46,8 +46,6 @@ libmagic==1.0
 lxml==5.3.0
 MarkupSafe==2.1.5
 marshmallow==3.21.3
-milvus==2.3.8
-milvus-lite==2.4.9
 multidict==6.0.5
 mypy-extensions==1.0.0
 nest-asyncio==1.6.0
