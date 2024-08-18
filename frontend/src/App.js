@@ -23,7 +23,7 @@ function App() {
   const sendMessage = async () => {
     if (input.trim() === "") return;
 
-    const response = await fetch("http://localhost:5001/ask", {
+    const response = await fetch("https://pacific-falls-04442-ab2755ff60b0.herokuapp.com/ask", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -45,7 +45,6 @@ function App() {
 
   return (
     <div className="App">
-      <img src="/src/wave.svg" alt="Wave" class="wave-overlay"></img>
        <h1>NitikaNexus <span style={{ WebkitTextFillColor: 'initial' }}>🤖</span></h1>
       <div className="chat-window" ref={chatWindowRef}>
         {messages.map((msg, idx) => (
