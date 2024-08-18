@@ -3,7 +3,7 @@ from backend.model import RAG
 
 def create_rag_instance():
     return RAG(
-        docs_dir="/Users/nitikaborkar/SAP-Project/docs",# Path to your documents directory
+        docs_dir="docs",# Path to your documents directory
         n_retrievals=4,           # Number of documents to retrieve
         chat_max_tokens=3097,     # Maximum number of tokens for chat memory
         creativeness=1.2          # Creativity level for responses
