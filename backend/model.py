@@ -11,7 +11,7 @@ class RAG:
                  docs_dir: str,
                  n_retrievals: int = 4,
                  chat_max_tokens: int = 3097,
-                 model_name="gpt-4o-mini",
+                 model_name="gemini-2.0-flash-exp",
                  creativeness: float = 0.7):
 
         # Initialize the LLM model
