@@ -40,13 +40,54 @@ function App() {
   }, [messages]);
 
   return (
-    <div className="App">
-      <h1>
-        NitikaNexus <span style={{ WebkitTextFillColor: 'initial' }}>🤖</span>  {/* ✅ FIXED */}
-      </h1>
-      {/* Rest of your JSX... */}
+  <div className="App">
+    <h1>
+      NitikaNexus <span style={{ WebkitTextFillColor: "initial" }}>🤖</span>
+    </h1>
+
+    <div className="chat-window" ref={chatWindowRef}>
+      {messages.map((msg, idx) => (
+        <div
+          key={idx}
+          className={`message-container ${
+            msg.user ? "user-message-container" : "bot-message-container"
+          }`}
+        >
+          {msg.user && (
+            <p className="user-message">
+              <strong>You:</strong> {msg.user}
+            </p>
+          )}
+          {msg.bot && (
+            <p
+              className="bot-message"
+              dangerouslySetInnerHTML={{
+                __html: `<strong>NitikaNexus:</strong> ${msg.bot}`,
+              }}
+            />
+          )}
+        </div>
+      ))}
     </div>
-  );
-}
+
+    <div className="input-container">
+      <input
+        type="text"
+        value={input}
+        onChange={(e) => setInput(e.target.value)}
+        onKeyDown={(e) => e.key === "Enter" && sendMessage()}
+      />
+      <button onClick={sendMessage}>
+        <div className="svg-wrapper-1">
+          <div className="svg-wrapper">
+            {/* your SVG stays the same */}
+          </div>
+        </div>
+        <span>Send</span>
+      </button>
+    </div>
+  </div>
+);
+
 
 export default App;
