@@ -90,7 +90,7 @@ langchain==0.3.7
 langchain-core==0.3.15
 langchain-community==0.3.7
 langchain-text-splitters==0.3.2
-langsmith==0.1.99
+langsmith>=0.1.125
 
 # Google Gemini - NEW VERSION
 langchain-google-genai==2.0.4
