@@ -2,7 +2,7 @@ import os
 from backend.document_loader import get_docs_list
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.vectorstores import FAISS
-from langchain_openai import OpenAIEmbeddings
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
 def set_retriever(model, docs_dir, k, search_type="similarity", score_threshold=None):
 
@@ -13,8 +13,8 @@ def set_retriever(model, docs_dir, k, search_type="similarity", score_threshold=
     texts = text_splitter.split_documents(documents)
     
     # Generate embeddings
-    embeddings = OpenAIEmbeddings()
-    
+    embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001",google_api_key=os.getenv("GOOGLE_API_KEY"))
+
     # Initialize FAISS vector store
     db = FAISS.from_documents(texts, embeddings)
     
