@@ -9,7 +9,7 @@ NitikaNexus is an intelligent conversational AI application that provides an int
 
 ## Live Demo
 
-**[View Application](https://nitkanexus.vercel.app/)**
+**[View Application](https://nitkanexus-fwwta62ox-nitikaborkars-projects.vercel.app/)**
 
 > **Note:** Initial responses may take 5-10 seconds as the application uses free-tier hosting services. The backend is currently not hosted due to cost constraints.
 
