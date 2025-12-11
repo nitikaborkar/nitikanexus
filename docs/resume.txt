@@ -1,69 +1,86 @@
 Nitika Borkar
-Contact Information
+ Mobile No.: +65 81533541 | Email: nitikaborkar@gmail.com 
+education
+Nanyang Technological University, Singapore	Aug 2022 - May 2026
+Bachelor of Engineering (Honours) Computer Science 
+	•	Honours (Highest Distinction) CGPA: 4.73/5.00
+	•	Relevant Coursework: Artificial Intelligence, Natural Language Processing, Introduction to Data Science & Artificial Intelligence, Machine Learning, Database Systems, Neural Networks
 
-Mobile No.: 81533541
-Email: nitikaborkar@gmail.com
-Education
-Degree: Bachelor of Engineering, Computer Science
-Institution: Nanyang Technological University, Singapore
-Duration: Aug 2022 - May 2026
-CGPA: 4.69/5.00
-GPA (Last Semester): 4.85/5.00
-Relevant Coursework:
-Algorithm Design and Analysis (Grade: A)
-Operating Systems (Grade: A)
-Introduction to Data Science & Artificial Intelligence (Grade: A)
-Object-Oriented Design and Programming (Grade: A-)
-Software Engineering
-Introduction to Database
-Professional Experience
-KPMG (May 2024 - July 2024)
+AWARDS and recognition
+	•	Dean’s List (2023-2024, 2024-2025)
+	•	MSD hackathon track at the IEEE iNTUition (1st Place) (2025) 
+	•	NTU President Research Scholar
+	•	SHE INSPIRE Scholarship Recipient (2022)
 
-Role: Machine Learning and AI Intern
-Key Achievements:
-Implemented uplift modeling using machine learning algorithms, achieving a 75% increase in revenue and 77% cost reduction.
-Developed an AI-driven supplier risk assessment system integrating large language models to generate risk assessment reports.
-Bosch (March 2024 - May 2024)
+skills
 
-Role: Data Science and Machine Learning Intern
-Key Achievements:
-Developed a change point detection system with 92% accuracy using Binseg algorithm and Random Forest Regressor.
-Tata Capital Financial Services Limited (May 2023 - June 2023)
+	•	Programming: Python, Java, C, SQL, R
+	•	Machine Learning: Pandas, Numpy Scikit-learn, XGBoost, LightGBM, Regression & Classification Models, Clustering, Probabilistic Models, Bayesian Methods, Predictive Modeling, Causal Inference (Uplift Modeling, Propensity Scoring)
+	•	Deep Learning: PyTorch, Tensorflow, MLPs, CNNs, RNNs, Transformers, Reinforcement Learning, Transfer Learning
+	•	Large Language Models & Generative AI: LangChain, LangGraph, RAG, ReAct, Hugging Face, Prompt Engineering, LLM Benchmarking and Evaluation, Sentiment Analysis
+	•	Computer Vision: YOLO, RT-DETR, OpenCV, SAM, CLIP, Image Segmentation, Anomaly Detection
+	•	Data Engineering & Big Data: PySpark, Databricks, Feature Engineering, Data Preprocessing, Missing Value Analysis, Outlier Detection
+	•	Cloud and Devops : AWS (EC2, S3, SageMaker), Docker, Git, CI/CD Pipelines, Jupyter, VS Code
+	•	Visualization: Power BI, Tableau, Streamlit, Flask
+	•	Database Management: SQL, MongoDB
 
-Role: Data Science Intern
-Key Achievements:
-Conducted rejection inferencing analysis on loan data, identifying segments for improving approval rates.
-Academic Projects and Research Experience
-Undergraduate Researcher, NTU (Aug 2023 - July 2024)
 
-Project: Driver Allocation Optimization on Food Delivery Platform
-Key Achievements: Developed an interactive dashboard using R shiny and Leaflet for real-time driver supply and demand optimization.
-Software Engineering and Design Project (Jan 2024 - April 2024)
+WORK experience
+Balanceflo.ai, Singapore	Aug 2025 – Dec 2025 
+AI/ Computer vision Intern 
+	•	Architected a multi-agent system using LangChain, LangGraph, and vision-language models for automated risk assessment across 8+ activity categories, reducing manual evaluation time by 70%. 
+	•	Developed end-to-end cv pipelines integrating 2D/3D pose estimation, depth estimation, contact detection, and models such as MediaPipe, YOLO-Pose, and SAM to enable high-precision ergonomic risk classification.
+	•	Built a production-ready Flask REST API with secure API key authentication, rate limiting, file validation, and robust error handling to deliver real-time ergonomic analysis on 10MB+ images, while optimizing inference costs via prompt caching.
 
-Project: EducateSG (Full Stack Development, 5-member team)
-Key Achievements: Led the development of a full-stack project using ReactJS, MongoDB, and integrated various APIs.
-Artificial Intelligence Project (March 2024 - April 2024)
+SAP Asia Pte Ltd, Singapore	Jan 2025 - June 2025
+Data Science Developer Intern 
+	•	Conducted LLM benchmarking across various models like GPT, llama and Gemini on SAP’s in-house digital assistant, achieving ~90% F1-score using unsupervised approaches like LLM-as-a-Judge, sentiment analysis to assess model performance and alignment.
+	•	Reduced troubleshooting time by 40% by implementing large-scale incremental clustering (HDBSCAN) on operational datasets, enabling faster root cause identification and reducing operational costs for SAP's enterprise clients.
+	•	Designed prompt reliability tests and automated model evaluation workflows to assess contextual alignment and hallucination rates.
+	•	Presented data-driven insights from analytics work to SAP's CTO and Chief AI Officer, demonstrating effective stakeholder communication and securing executive buy-in for product improvements.
 
-Project: Reinforcement Learning for Pole Balancing on Cart Problem
-Key Achievements: Implemented Q-learning algorithm, achieving an average reward of 195 over 100 episodes.
-Extracurricular Activities
-Vice-President, NTU Open-Source Society (2023-2024)
+KPMG International Limited	May 2024 - Jul 2024
+Machine Learning and AI Intern 
+	•	Delivered 75% revenue uplift and 77% cost reduction for marketing campaigns by optimizing marketing spend allocation across high-value segments and improving conversion rates through data-driven targeting strategies.
+	•	Developed causal inference-based uplift modeling system with propensity scoring and counterfactual analysis for precise customer segmentation based on treatment responsiveness and behavioral patterns.
+	•	Designed interactive Power BI dashboards for real-time visibility into customer segment performance, campaign ROI metrics, and uplift analysis to inform strategic marketing investments.
+	•	Automated supplier risk assessment by developing GenAI-powered system using LangChain framework for RAG implementation, automated risk report generation, and sentiment analysis reducing manual review time and improving risk detection accuracy.
+Bosch Ltd	Mar 2024 - May 2024
+Data Science and Machine Learning Intern 
+	•	Achieved 92% accuracy in production tool usage classification by developing hybrid supervised-unsupervised change point detection system combining Binseg algorithm with Random Forest Regressor, enabling predictive maintenance and reducing equipment downtime.
+	•	Improved operational efficiency through comprehensive time series data preprocessing (outlier detection, missing data analysis, feature engineering) and change point detection on RMS current data, categorizing tool usage into distinct stages for process optimization. 
 
-Led 3 teams in organizing workshops, hackathons, and projects.
-Liaised with industry experts to enhance collaboration and industry relevance.
-Hackathon Head, School of Computer Science and Engineering Club (2023-2023)
+Tata Capital Financial Services Limited	May 2023 - Jul 2023
+Data Science Intern 
+	•	Identified opportunities to improve loan approval rates by conducting rejection inferencing analysis across diverse loan categories using Python and PySpark on Databricks, directly informing lending policy adjustments.
+	•	Enabled data-driven lending decisions by analyzing loan performance across rejection segments and comparing with competitor bank data, helping business leaders identify segments where lending criteria could be safely relaxed to increase revenue.
 
-Organized the Techfest hackathon.
-Interacted with tech company leaders, showcasing networking skills.
-Skills
-Programming Languages: Python, Java, C
-Web Development: HTML/CSS, JavaScript, React.js, Node.js, Express.js
-Data Science and Machine Learning: Pandas, Numpy, Matplotlib, Plotly, Scikit-learn, TensorFlow, PyTorch
-Database Management: SQL, MongoDB
-Tools: Tableau, PowerBI, Microsoft Excel/PowerPoint
-Version Control: Git/GitHub
-Academic Achievements
-Accelerated Bachelor Program at NTU
-President Research Scholar (Undergraduate Research Assistance)
-SHE INSPIRE Scholarship (Top 1% of class 12 examination, Aug 2022)
-Lala Kailashpat Singhania Special Merit Scholarship (Rank 3 in school)
+
+projects and research experience
+Neural Networks and Deep Learning Project 	November 2025
+	•	Engineered a hybrid CNN-Transformer architecture with Stockwell Transform preprocessing for automated ECG arrhythmia classification, achieving 92% accuracy on imbalanced MIT-BIH dataset through ensemble methods, Mixup augmentation, and adaptive learning rate scheduling.
+
+Behavioral Analytics for Essay Quality Prediction	November 2025
+	•	Placed in top 15% of Kaggle writing quality prediction competition (2,000+ teams), engineering behavioral features from keystroke data and deploying ensemble regression models with hyperparameter tuning.
+
+Data Science Undergraduate Research Project	Aug 2023 - Jul 2024
+	•	Analysed and optimized operational efficiency of a food delivery platform using Python and R for geospatial data analysis and driver allocation analysis.
+	•	Built an interactive dashboard with R shiny and Leaflet for spatial visualization, employing dynamic imbalance-difference data analysis for real-time driver supply and demand optimization.
+  
+Data Science and Machine Learning Project	Jan 2023 - Apr 2023
+	•	Explored diverse factors affecting sleep efficiency to combat prevalent sleep deprivation issues.
+	•	Trained predictive models such as Multi-Variate Linear Regression and XGBoost, for actionable insights.
+ 
+Hackathons and competitions 
+Adaptify AI, First Prize Winner, MSD Hackathon	March 2025
+	•	Developed an AI change management platform using including RAG (Retrieval-Augmented Generation) large language models and web search integration to create an AI-powered solution that automates communication generation, strategy optimization, and framework analysis with machine learning-driven sentiment and context analysis.
+	•	Built a React frontend with FastAPI backend, implementing real-time continuous feedback mechanisms.
+
+MedBuster: Multi-Modal AI Platform for Medical Misinformation Detection	March 2025
+	•	Designed and implemented a multi-modal AI-powered misinformation detection platform that synthesizes natural language processing and computer vision integrating speech-to-text technology, deepfake video analysis, and image verification to combat the spread of medical and health-related false information. 
+
+ LEADERSHIP EXPERIENCE
+	•	President NTU Open-Source Society (2024-2025)
+	•	Led 3 teams organizing workshops, hackathons, and projects while liaising with industry experts to enhance collaboration and industry relevance
+	•	Hackathon Head, School of Computer Science and Engineering Club – Events (2023)
+	•	Undergraduate Representative, Society of Women Engineers (SWE@NTU) (2023-2024)
