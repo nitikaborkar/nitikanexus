@@ -1,7 +1,7 @@
 # NitikaNexus Chatbot
 
 ## Access the Application
-### The application is deployed and accessible via the following link: https://nitkanexus.vercel.app/
+### The application is deployed and accessible via the following link: [https://nitkanexus.vercel.app/](https://nitkanexus-70zsmiimo-nitikaborkars-projects.vercel.app/)
 
 Please be patient for a few seconds, as responses may take a moment to appear due to the standard version of hosting services being used.
 Note the backend is not hosted currently due to cost purposes.
