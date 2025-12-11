@@ -48,14 +48,14 @@ NitikaNexus is an intelligent conversational AI application that provides an int
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────┐ HTTP/REST ┌──────────────┐
-│ React │ ◄─────────────────► │ Flask │
-│ Frontend │ │ Backend │
-│ (Vercel) │ │ (Heroku) │
-└─────────────┘ └──────────────┘
+│ React │ ◄─────────────────► │ Flask   │
+│ Frontend │                  │ Backend │
+│ (Vercel) │                  │ (Heroku)│
+└─────────────┘            └──────────────┘
 │
 ▼
 ┌──────────────┐
@@ -65,7 +65,7 @@ NitikaNexus is an intelligent conversational AI application that provides an int
 └──────────────┘
 ```
 
-## 🚦 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+ and npm
