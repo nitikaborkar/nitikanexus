@@ -23,7 +23,7 @@ function App() {
   const sendMessage = async () => {
     if (input.trim() === "") return;
 
-    const response = await fetch("https://pacific-falls-04442-ab2755ff60b0.herokuapp.com/ask", {
+    const response = await fetch(""https://nitikanexus.onrender.com/ask"", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
